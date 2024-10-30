@@ -1,0 +1,26 @@
+body{
+background-color: gray;
+z-index: -1;
+color:black;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+    color:red;
+}
+
+section{
+height: 90%;
+width: 90%;
+margin: auto;
+margin-top: 0%;
+background-color:  azure;
+}
+img{
+    border-radius: 50px;
+}
+
+strong{
+    color: blue;
+}
