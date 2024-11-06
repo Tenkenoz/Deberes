@@ -3,11 +3,13 @@ background-color: gray;
 z-index: -1;
 color:black;
 font-family: 'Times New Roman', Times, serif;
-
+margin-top: 0;
+margin-bottom: 0;
 }
 
 h1 {
     color:red;
+    margin-top: 0;
 }
 
 section{
