@@ -1,10 +1,13 @@
 body{
-background-color: gray;
+background-color: rgb(0, 0, 95);
 z-index: -1;
 color:black;
 font-family: 'Times New Roman', Times, serif;
 margin-top: 0;
 margin-bottom: 0;
+}
+header{
+    margin-bottom: 0;
 }
 
 h1 {
@@ -12,13 +15,26 @@ h1 {
     margin-top: 0;
 }
 
-section{
+.TITULO{
+    font-weight: 1000;
+    color:rgb(0, 0, 95);
+    margin-bottom: 0.15em;
+}
+
+nav {
+    margin-bottom: 1em;
+}
+
+div{
 height: 90%;
 width: 90%;
 margin: auto;
 margin-top: 0%;
-background-color:  azure;
+background-color:  rgb(205, 255, 255);
 padding: 25px 10px;
+}
+section{
+    margin-bottom: 2em;
 }
 img{
     border-radius: 50px;
@@ -28,7 +44,40 @@ strong{
     color: blue;
 }
 
-dt, ol{
+#Lista{
+    color:brown;
+    text-align: left;
+    margin-left: 1em;
+}
+
+ol{
     color: blue;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+li{
+width: 120px;
+margin: auto;
+}
+
+.Cursiva{
+font-style: oblique;
+}
+footer{
+    color: aliceblue;
+}
+.container{
+    text-align: center;
+    max-width: 800px;
+    margin:0 auto;
+}
+
+.ConoceMas{
+    border-radius: 25em;
+    box-shadow: 5px 1px;
+    cursor: pointer;
+    color: brown;
+    background-color: aqua;
+    font-weight: 100;
 }
