@@ -64,6 +64,18 @@ margin: auto;
 .Cursiva{
 font-style: oblique;
 }
+
+p>span{
+ font-size: 25px;
+}
+ol li {
+    color: red;
+}
+.Conoce{
+    text-align: left;
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 footer{
     color: aliceblue;
 }
@@ -80,4 +92,19 @@ footer{
     color: brown;
     background-color: aqua;
     font-weight: 100;
+}
+
+.flexStyle{
+    display: flex;
+    margin-top: 5px;
+    border:10px solid black;
+    border-style: double;
+    background-color: rgb(183, 0, 255);
+
+    justify-content:space-around;
+}
+
+form>input{
+   margin: auto;
+
 }
