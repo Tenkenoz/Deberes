@@ -108,3 +108,21 @@ form>input{
    margin: auto;
 
 }
+
+.tableStyle{
+    background-color: aqua;
+    border: 0.5em solid black;
+}
+tr, th{
+    color: blue;
+    font-size: 25px;
+}
+td{
+    color: black;
+}
+
+tfoot>tr>td {
+    border: 0em;
+    text-align: center;
+    background-color: beige;
+}

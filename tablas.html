@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Estilos\EstilosTabla.css"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+</head>
+<body>
+    <header>
+        Tablas
+    </header>
+    <section>
+        <p>Uso de la etiqueta <em>tabla</em> para el manejo de envio o recibo de la informacion</p>
+        <article>
+            <table frame="void" rules="rows" class="tableStyle" cellpading="10px" cellspacing="10px"> 
+                <caption style="color: red;">Lista de personas</caption>
+                <colgroup>
+                <col style="width: 150px; background-color: rgb(234, 255, 0);">
+                <col style="width: 250px; background-color: rgb(72, 0, 255);">
+                </colgroup>
+                <thead>
+                <tr>
+                    <th colspan="2">Nombre</th>
+                    <th align="center">Edad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">Erick</td>
+                    <td>Obando</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Alejandro</td>
+                    <td>Obando</td>
+                    <td>20</td>
+                </tbody>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td>PIE</td>
+                        <td>PIE</td>
+                        <td>PIE</td>
+                    </tr>
+                
+                </tfoot>
+            </table>
+            <form action="submit" method="post">
+                <label>Nombre</label><input placeholder="apellido" type="text" id="nombre"><br>
+                <label>Apellido</label><input placeholder="apellido" type="text" id="apellido"><br>
+                <label>Password</label><input placeholder="apellido" type="password" id="contrasena"><br>
+                <label>Tipo de persona</label><select id="cboTipo">
+                      <option>Ingeniero</option>
+                      <option>Licenciado</option>
+                      <option>Doctor</option>
+                </select><br>     
+              </form>
+              <input type="submit"></input>
+        </article>
+    </section>
+</body>
+</html>

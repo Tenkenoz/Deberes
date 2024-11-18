@@ -1,0 +1,28 @@
+body{
+    background: rgb(181,151,125);
+background: linear-gradient(90deg, rgba(181,151,125,1) 0%, rgba(142,202,203,1) 15%, rgba(206,172,144,1) 85%, rgba(181,151,125,1) 100%);
+}
+
+
+
+input[type="text"]{
+border-bottom: 2px solid #000;
+background: transparent;
+border-radius:20% ;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input{
+    border: 0px;
+    background: transparent;
+}
+
+input::placeholder{
+    color: blanchedalmond;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color:tomato !important ;
+}
+
